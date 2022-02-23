@@ -7,13 +7,13 @@
     <title>
       Play | Free Tailwind CSS Template for Startup and SaaS By TailGrids
     </title>
-    {{-- <link
+    <link
       rel="shortcut icon"
       href="assets/images/favicon.png"
       type="image/x-icon"
-    /> --}}
+    />
 
-    <link rel="shortcut icon" href="{{ asset('/images/favicon.png') }}" type="image/x-icon" />
+    {{-- <link rel="shortcut icon" href="{{ asset('/images/favicon.png') }}" type="image/x-icon" /> --}}
     <link rel="stylesheet" href="{{mix('css/app.css')}}"/>
 
     {{-- <link rel="stylesheet" href="assets/css/animate.css" />
